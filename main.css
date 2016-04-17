@@ -30,7 +30,6 @@
     display: inline;
 }
 
-<<<<<<< HEAD
 .resize {
     width: 400px;
     height: auto;
@@ -88,6 +87,14 @@
 }
 
 .jumbotron {
+  background-image:url('http://www.ryelibrary.org/main/wp-content/uploads/coding-image.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    text-align: center;
+}
+
+.aboutUsJumbotron {
   background-image:url('http://www.ryelibrary.org/main/wp-content/uploads/coding-image.jpg');
   height: 500px;
   background-repeat: no-repeat;
@@ -161,6 +168,36 @@
 }
 
 .jumbotron p {
+  font-size: 50px;
+  display: inline;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.aboutUsJumbotron .container {
+  position: relative;
+  top:100px;
+    display: inline;
+}
+
+.aboutUsJumbotron li {
+    display: inline;
+}
+
+.aboutUsJumbotron h1 {
+  color: #fff;
+    text-shadow: 4px 4px #000;
+  font-size: 165px;  
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+    display: inline;
+}
+
+.aboutUsJumbotron a {
+    display: inline-block;
+}
+
+.aboutUsJumbotron p {
   font-size: 50px;
   display: inline;
   color: #fff;
