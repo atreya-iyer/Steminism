@@ -15,6 +15,18 @@
   display: inline-table;
 }
 
+.backToHome a {
+    display: inline-block;
+}
+
+.backToHome {
+    text-align: center;
+}
+
+.backToHome li {
+    display: inline;
+}
+
 .stuff {
     background-color:#ffe1dd;
     font-size: 30px;
@@ -42,7 +54,25 @@
     font-weight: bold;
 }
     
-    
+ 
+
+.ResourcesJumbotron {
+  background-image:url('http://www.impublications.com/sites/default/files/books.jpg');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    text-align: center;
+}
+
+.ResourcesJumbotron h1 {
+  color: #fff;
+  font-size: 165px;  
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+    text-shadow: 2px 2px #878787;
+    display: inline;
+}
+
 .jumbotron {
   background-image:url('http://www.ryelibrary.org/main/wp-content/uploads/coding-image.jpg');
   height: 500px;
