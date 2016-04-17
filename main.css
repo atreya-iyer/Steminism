@@ -1,33 +1,45 @@
 .nav a {
-  color: #00ffFF;
+  color: #505050;
   font-size: 15px;
   font-weight: bold;
-  padding: 24px 20px;
-  font-family: 'Shift', sans-serif;
+  padding: 10px, 10px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 
 .nav {
-    background-color: black
+    background-color:#ff7260;
 }
 
 .nav li {
   display: inline-table;
 }
 
-.neighborhood-guides {
-    background-color:#efefef;
-    border-bottom: 1px solid #dbdbdb;
+.stuff {
+    background-color:#ffe1dd;
+    font-size: 30px;
+    text-align: center;
 }
 
-.neighborhood-guides h2 {
-    color: #393c3d;
+.stuff a {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:505050;
+    display: inline-block;
+}
+
+.stuff li {
+    display: inline;
+}
+
+.stuff h2 {
+    color: #505050;
     font-size: 24px;
 }
 
-.neighborhood-guides p {
+.stuff p {
     font-size: 15px;
     margin-bottom: 13px;
+    font-weight: bold;
 }
     
     
@@ -36,25 +48,37 @@
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+    text-align: center;
 }
 
 .jumbotron .container {
   position: relative;
   top:100px;
+    display: inline;
+}
+
+.jumbotron li {
+    display: inline;
 }
 
 .jumbotron h1 {
   color: #fff;
   font-size: 165px;  
-  font-family: 'Shift', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
+    display: inline;
+}
+
+
+.jumbotron a {
+    display: inline-block;
 }
 
 .jumbotron p {
   font-size: 50px;
-  display: flex;
+  display: inline;
   color: #fff;
-  font-family: 'Shift', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .learn-more {
@@ -62,11 +86,11 @@
 }
 
 .learn-more h3 {
-  font-family: 'Shift', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
 }
 
 .learn-more a {
-  color: #00b0ff;
+  color: #000080;
 }
