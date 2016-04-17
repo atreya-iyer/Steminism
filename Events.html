@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+        <li><a href="AboutUs.html">About us</a></li>
+          
+         </ul>
+        <ul class="pull-right">
+          <li><a href="Login.html">Login</a></li>
+        </ul>
+          <div class = "row">
+          <div class = backToHome>
+            <li> 
+                <a href="index.html"><button type="button" class="btn btn-secondary">Home Page</button>
+                </a> 
+            </li>
+          </div>
+          </div>
+     </div>
+    </div>
+      
+      <div class="stuff">
+      <div class="row">
+       <div class="col-xs-4 col-centered">
+        <li><a href="Events.html">Events</a></li>
+        </div>
+      
+      <div class="col-xs-4 col-centered">
+        <li><a href="Forums.html">Forums</a></li>
+    </div>
+
+       <div class="col-xs-4 col-centered">
+        <li><a href="Resources.html">Resources</a></li>
+      </div>
+      </div>
+      </div>
+
+    <div class="EventsJumbotron">
+      <div class="container">
+        <h1>Events</h1>
+          <div class =  "row"> 
+          </div>
+          <div class = "row"></div>
+      </div>
+    </div> 
+
+ 
+      
+      
+      
+      
+      
+  <head>
+
+    <title>
+        Tutorials point Bootstrap Examples
+    </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://www.tutorialspoint.com/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="one-page-wonder.css" rel="stylesheet">
+
+    <style>
+        .agenda {}
+        /* Dates */
+        
+        .agenda .agenda-date {
+            width: 170px;
+        }
+        
+        .agenda .agenda-date .dayofmonth {
+            width: 40px;
+            font-size: 36px;
+            line-height: 36px;
+            float: left;
+            text-align: right;
+            margin-right: 10px;
+        }
+        
+        .agenda .agenda-date .shortdate {
+            font-size: 0.75em;
+        }
+        /* Times */
+        
+        .agenda .agenda-time {
+            width: 140px;
+        }
+        /* Events */
+        
+        .agenda .agenda-events {}
+        
+        .agenda .agenda-events .agenda-event {}
+        
+        @media (max-width: 767px) {}
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <h1 class="thick-heading">
+        Summer Camps 2016
+      </h1>
+        <p> Below is a collection of summer camps for girls interested in STEM. </p>
+        
+        <p>The STEM Summer Institute is for rising 7th through 12th grade girls was created in 2011 as a model STEM summer program for girls. The aim for this camp is to model true integration of science, technology, engineering, and mathematics in a domain that is naturally appealing to girls. 
+        </p>
+        
+        <p> The Mt. Diablo GIRL Summit, C-STEM GIRL Camp is focused on motivating girls in middle school through peer mentoring, to learn computing and STEM concepts through a fun and exciting robotics-based curriculum.</p>
+        
+        <p> The TechTrek camps at Davis and Irvine are science and math camps designed to develop interest, excitement, and self-confidence in young women who will enter eighth grade in the fall. </p>
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+            <!------------------------code---------------start---------------->
+            <div class="container">
+                <div class="agenda">
+                    <div class="table-responsive">
+                        <table class="table table-condensed table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Event</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Single event in a single day -->
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="dayofmonth">6</div>
+                                        <div class="dayofweek">Monday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="dayofmonth">7</div>
+                                        <div class="dayofweek">Tuesday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="dayofmonth">8</div>
+                                        <div class="dayofweek">Wednesday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="dayofmonth">9</div>
+                                        <div class="dayofweek">Thursday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="dayofmonth">10</div>
+                                        <div class="dayofweek">Friday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="dayofmonth">11</div>
+                                        <div class="dayofweek">Saturday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="dayofmonth">12</div>
+                                        <div class="dayofweek">Sunday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                
+                                
+                                
+                                <!-- Multiple events in a single day (note the rowspan) -->
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">13</div>
+                                        <div class="dayofweek">Monday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            Mt. Diablo GIRL Summit, C-STEM GIRL Camps
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">14</div>
+                                        <div class="dayofweek">Tuesday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            Mt. Diablo GIRL Summit, C-STEM GIRL Camps
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">15</div>
+                                        <div class="dayofweek">Wednesday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            Mt. Diablo GIRL Summit, C-STEM GIRL Camps
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">16</div>
+                                        <div class="dayofweek">Thursday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            Mt. Diablo GIRL Summit, C-STEM GIRL Camps
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">17</div>
+                                        <div class="dayofweek">Friday</div>
+                                        <div class="shortdate text-muted">June, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            Mt. Diablo GIRL Summit, C-STEM GIRL Camps
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            STEM Summer Institute
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">10</div>
+                                        <div class="dayofweek">Sunday</div>
+                                        <div class="shortdate text-muted">July, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Davis
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Irvine
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">11</div>
+                                        <div class="dayofweek">Monday</div>
+                                        <div class="shortdate text-muted">July, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Davis
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Irvine
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">12</div>
+                                        <div class="dayofweek">Tuesday</div>
+                                        <div class="shortdate text-muted">July, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Davis
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Irvine
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">13</div>
+                                        <div class="dayofweek">Wednesday</div>
+                                        <div class="shortdate text-muted">July, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Davis
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Irvine
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">14</div>
+                                        <div class="dayofweek">Thursday</div>
+                                        <div class="shortdate text-muted">July, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Davis
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Irvine
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">15</div>
+                                        <div class="dayofweek">Friday</div>
+                                        <div class="shortdate text-muted">July, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Davis
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Irvine
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="3">
+                                        <div class="dayofmonth">16</div>
+                                        <div class="dayofweek">Saturday</div>
+                                        <div class="shortdate text-muted">July, 2016</div>
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Davis
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            TechTrek @ Irvine
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+      
+      
+      
+      
+      
+      
+      
+  </body>
+</html>
