@@ -122,7 +122,7 @@
 }
 
 .aboutUsJumbotron {
-  background-image:url('http://www.ryelibrary.org/main/wp-content/uploads/coding-image.jpg');
+  background-color:#f9eae8;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
