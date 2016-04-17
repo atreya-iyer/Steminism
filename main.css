@@ -1,0 +1,72 @@
+.nav a {
+  color: #00ffFF;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 24px 20px;
+  font-family: 'Shift', sans-serif;
+  text-transform: uppercase;
+}
+
+.nav {
+    background-color: black
+}
+
+.nav li {
+  display: inline-table;
+}
+
+.neighborhood-guides {
+    background-color:#efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+    
+    
+.jumbotron {
+  background-image:url('http://www.ryelibrary.org/main/wp-content/uploads/coding-image.jpg');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 165px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 50px;
+  display: flex;
+  color: #fff;
+  font-family: 'Shift', sans-serif;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
